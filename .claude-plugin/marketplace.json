@@ -1,0 +1,16 @@
+{
+  "name": "okfindex",
+  "description": "Find Open Knowledge Format bundles, read their sources and search knowledge bases through a remote MCP server.",
+  "owner": {
+    "name": "OKF Index",
+    "email": "contato@okfindex.com",
+    "url": "https://okfindex.com"
+  },
+  "plugins": [
+    {
+      "name": "okfindex",
+      "source": "./",
+      "category": "data"
+    }
+  ]
+}

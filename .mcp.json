@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "okfindex": {
+      "type": "http",
+      "url": "https://okfindex.com/mcp?checkout=site"
+    }
+  }
+}

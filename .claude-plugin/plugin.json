@@ -1,0 +1,14 @@
+{
+  "name": "okfindex",
+  "displayName": "OKF Index",
+  "version": "1.0.0",
+  "description": "Find Open Knowledge Format bundles, read their sources and search knowledge bases through a remote MCP server.",
+  "author": { "name": "OKF Index", "email": "contato@okfindex.com", "url": "https://okfindex.com" },
+  "homepage": "https://okfindex.com",
+  "repository": "https://github.com/wrpbr/okfindex",
+  "license": "MIT-0",
+  "keywords": ["knowledge-base", "search", "okf", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://okfindex.com/developers",
+  "supportUrl": "https://github.com/wrpbr/okfindex/issues"
+}
