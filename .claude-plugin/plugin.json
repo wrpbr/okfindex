@@ -1,7 +1,7 @@
 {
   "name": "okfindex",
   "displayName": "OKF Index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find Open Knowledge Format bundles, read their sources and search knowledge bases through a remote MCP server.",
   "author": { "name": "OKF Index", "email": "contato@okfindex.com", "url": "https://okfindex.com" },
   "homepage": "https://okfindex.com",
