@@ -18,8 +18,11 @@ For links inside a concept, `/` starts at the directory of `index_url`; other pa
 The indexed root can be partial. Read `index_url` when the required entry is absent.
 For private documents, use the authorized account's `GET https://okfindex.com/api/bases`.
 Create or import Markdown/TXT within the initial capacity.
-Search the base, inspect excerpts and read the source before answering.
-Keep source URLs, versions and provenance in citations.
+Search the selected base at `{base.api}/search?q=...`.
+Use a returned `snippet` when it contains the evidence and context needed for a narrow question.
+Cite its document link, hash and import date. The import date does not verify source freshness.
+Read the full document when the excerpt leaves conditions unclear or the task needs complete coverage.
+Keep original-source URLs separately when the response does not provide them.
 
 If more capacity is needed, compare the monthly base subscription with the collection you actually use.
 Conversion and sourced AI questions have separate quotes; base capacity does not include unlimited processing.
