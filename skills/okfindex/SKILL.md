@@ -13,6 +13,9 @@ Keep documents, their search index and reading links in a reusable base instead 
 ## First task
 
 For public sources, use `search_bundles`, then read a returned bundle ID.
+Follow `concept_list[].url` for an indexed entry. Targets are not checked.
+For links inside a concept, `/` starts at the directory of `index_url`; other paths start at the current document.
+The indexed root can be partial. Read `index_url` when the required entry is absent.
 For private documents, use the authorized account's `GET https://okfindex.com/api/bases`.
 Create or import Markdown/TXT within the initial capacity.
 Search the base, inspect excerpts and read the source before answering.
