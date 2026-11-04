@@ -6,9 +6,22 @@ license: MIT-0
 
 # OKF Index
 
-MCP tools: `search_bundles`, `list_bases`.
+MCP tools: `search_bundles`, `get_bundle`, `list_bases`, `search_base`, `get_base_document`, `create_base`, `quote_base_document`, `authorize_base_conversion`, `search_legislation`, `get_legislation`, `list_collections`, `get_collection`, `search_collection`.
 
 Keep documents, their search index and reading links in a reusable base instead of importing them in every session.
+
+## Everyday requests
+
+Use this skill for finding sources and answering questions from authorized documents.
+Reuse the topic, base or collection from context. Ask only for missing source or access.
+Search before reading whole files. Read passage context and cite the evidence.
+A request to search private documents does not authorize publishing or sharing them.
+
+- "Find a public documentation collection for the technology I am using." Use `search_bundles` and read a returned bundle.
+- "What do my documents say about contract cancellation? Cite the relevant passages." Select an authorized base, search it and read the source context.
+- "Put this PDF into a knowledge base I can search in future conversations." Confirm the base, capacity and conversion quote before authorization.
+- "Find Brazil's LGPD in the legislation base and show the available source and version." Use free `search_legislation` and `get_legislation`.
+- "Search this topic across my knowledge collection and show the sources." Resolve the authorized collection and use `search_collection`.
 
 ## First task
 
